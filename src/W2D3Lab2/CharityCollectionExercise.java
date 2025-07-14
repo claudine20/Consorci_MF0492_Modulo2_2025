@@ -145,7 +145,7 @@ public class CharityCollectionExercise {
         exercise.soundFilePlayer();
 
         mainScanner.close(); // Cierra el scanner al finalizar el programa
-        System.out.println("\n--- Fin de todos los ejercicios ---");
+        System.out.println("\n---- Fin de todos los ejercicios ----");
     }
 }
 
