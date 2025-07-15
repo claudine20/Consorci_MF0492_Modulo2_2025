@@ -1,0 +1,10 @@
+Employee{name='Juan Perez', email='juan.perez@example.com', age=30, salary=50000.0}
+Interno - Employee{name='Maria Lopez', email='maria.lopez@example.com', age=22, salary=18000.0}
+Employee{name='Carlos Garcia', email='carlos.garcia@example.com', age=35, salary=60000.0}
+Interno - Employee{name='Ana Martinez', email='ana.martinez@example.com', age=21, salary=19500.0}
+Employee{name='Pedro Sanchez', email='pedro.sanchez@example.com', age=40, salary=75000.0}
+Interno - Employee{name='Laura Rodriguez', email='laura.rodriguez@example.com', age=23, salary=17000.0}
+Employee{name='Sofia Gomez', email='sofia.gomez@example.com', age=28, salary=45000.0}
+Interno - Employee{name='David Fernandez', email='david.fernandez@example.com', age=20, salary=19999.99}
+Employee{name='Elena Diaz', email='elena.diaz@example.com', age=33, salary=55000.0}
+Interno - Employee{name='Pablo Ruiz', email='pablo.ruiz@example.com', age=24, salary=16000.0}
