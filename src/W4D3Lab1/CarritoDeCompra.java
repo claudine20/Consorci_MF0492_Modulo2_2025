@@ -1,4 +1,4 @@
-package W4D3Lab3;
+package W4D3Lab1;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

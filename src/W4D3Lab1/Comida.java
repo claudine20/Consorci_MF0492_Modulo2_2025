@@ -1,4 +1,4 @@
-package W4D3Lab3;
+package W4D3Lab1;
 
 /**
  * Clase que representa un producto de comida en el carrito.
