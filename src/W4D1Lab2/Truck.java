@@ -42,10 +42,10 @@ public class Truck  extends Car{
      */
     @Override
     public String getInfo() {
-        return "Tipo: Camioneta, VIN: " + vinNumber +
-                ", Marca: " + make +
-                ", Modelo: " + model +
-                ", Kilometraje: " + mileage + " millas" +
+        return "Tipo: Camioneta, VIN: " + getVinNumber() +
+                ", Marca: " + getMake()  +
+                ", Modelo: " + getModel() +
+                ", Kilometraje: " + getMileage() + " millas" +
                 ", Capacidad de Remolque: " + String.format("%.1f", towingCapacity) + " lbs."; // Formatea a un decimal
     }
 

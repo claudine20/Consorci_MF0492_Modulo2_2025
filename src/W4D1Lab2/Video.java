@@ -2,8 +2,8 @@ package W4D1Lab2;
 
 public abstract class Video {
     // Atributos protegidos: accesibles dentro de la clase y por las clases que la extienden.
-    protected String title;    // Título del video
-    protected int duration;    // Duración del video en minutos
+    private String title;    // Título del video
+    private int duration;    // Duración del video en minutos
 
     /**
      * Constructor de la clase abstracta VideoV2.

@@ -40,8 +40,8 @@ public class Movie extends Video {
      */
     @Override
     public String getInfo() {
-        return "Tipo: Película, Título: " + title +
-                ", Duración: " + duration + " min" +
+        return "Tipo: Película, Título: " + getTitle() +
+                ", Duración: " + getDuration() + " min" +
                 ", Calificación: " + String.format("%.1f", rating) + "."; // Formatea a un decimal
     }
 

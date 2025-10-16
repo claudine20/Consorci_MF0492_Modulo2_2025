@@ -40,8 +40,8 @@ public class TvSeries extends Video {
      */
     @Override
     public String getInfo() {
-        return "Tipo: Serie de TV, Título: " + title +
-                ", Duración Total: " + duration + " min" +
+        return "Tipo: Serie de TV, Título: " + getTitle() +
+                ", Duración Total: " + getDuration() + " min" +
                 ", Episodios: " + episodes + ".";
     }
 }

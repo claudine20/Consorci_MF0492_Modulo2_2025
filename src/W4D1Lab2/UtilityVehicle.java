@@ -37,10 +37,10 @@ public class UtilityVehicle extends Car{
      */
     @Override
     public String getInfo() {
-        return "Tipo: Utility Vehicle, VIN: " + vinNumber +
-                ", Marca: " + make +
-                ", Modelo: " + model +
-                ", Kilometraje: " + mileage + " millas" +
+        return "Tipo: Utility Vehicle, VIN: " + getVinNumber() +
+                ", Marca: " + getMake() +
+                ", Modelo: " + getModel()+
+                ", Kilometraje: " + getMileage() + " millas" +
                 ", Tracción 4x4: " + (fourWheelDrive ? "Sí" : "No") + "."; // Muestra "Sí" o "No" para el booleano
     }
 }

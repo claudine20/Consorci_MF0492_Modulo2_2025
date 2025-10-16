@@ -5,10 +5,10 @@ package W4D1Lab2;
 // Sirve como una plantilla para otras clases (clases concretas) que la extenderán.
 public abstract class Car {
     // Atributos protegidos: son accesibles dentro de la misma clase y por las clases que la extienden.
-    protected String vinNumber; // Número de Identificación del Vehículo (VIN)
-    protected String make;      // Marca del coche (ej. "Toyota", "Ford")
-    protected String model;     // Modelo del coche (ej. "Camry", "F-150")
-    protected int mileage;      // Kilometraje del coche (en millas o kilómetros)
+    private String vinNumber; // Número de Identificación del Vehículo (VIN)
+    private String make;      // Marca del coche (ej. "Toyota", "Ford")
+    private String model;     // Modelo del coche (ej. "Camry", "F-150")
+    private int mileage;      // Kilometraje del coche (en millas o kilómetros)
 
     /**
      * Constructor de la clase abstracta Car.

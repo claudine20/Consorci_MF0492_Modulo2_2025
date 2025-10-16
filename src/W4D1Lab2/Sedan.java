@@ -24,10 +24,10 @@ public class Sedan extends Car {
          */
         @Override // Indica que este método sobrescribe un método de la clase padre.
         public String getInfo() {
-            return "Tipo: Sedan, VIN: " + vinNumber +
-                    ", Marca: " + make +
-                    ", Modelo: " + model +
-                    ", Kilometraje: " + mileage + " millas.";
+            return "Tipo: Sedan, VIN: " + getVinNumber()  +
+                    ", Marca: " + getMake() +
+                    ", Modelo: " + getModel()  +
+                    ", Kilometraje: " + getMileage() + " millas.";
         }
     }
 
